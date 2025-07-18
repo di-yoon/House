@@ -61,7 +61,12 @@ LANGCHAIN_API_KEY=...
 
 ## 실행 방법
 
-챗봇 실행
+1. 정책 문서 임베딩
+```bash
+bash
+streamlit run create_summerized_vector_store.ipynb
+```
+2. 챗봇 실행
 ```bash
 bash
 streamlit run app.py
@@ -97,4 +102,3 @@ PR 환영합니다! 주석 개선, 정책 데이터 추가, UI 향상 등 어떤
 이슈 등록 후 논의해주시면 더 좋아요.
 
 .env나 민감한 데이터는 꼭 .gitignore 처리해주세요.
-
